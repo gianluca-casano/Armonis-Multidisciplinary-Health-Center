@@ -25,7 +25,8 @@ function nextframe_setup() {
 
   // Custom menu areas
   register_nav_menus( array(
-    'header' => esc_html__( 'Header', 'nextframe' ) // permette di personalizzare l'header da interfaccia WP (ASPETTO -> MENU)
+    'header' => esc_html__( 'Header', 'nextframe' ) // Permette di assegnare un menu personalizzato all'header da backend (Aspetto -> Menu)
+));
   ));
 
   /* Form di contatto - Contact Form 7 */
